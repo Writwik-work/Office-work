@@ -2,17 +2,17 @@ import { useEffect } from "react";
 import { useLocation, Routes, Route } from "react-router-dom";
 import WOW from "wow.js";
 import CreativeAgency from "./pages/Home/CreativeAgency";
-import PersonalPortfolio from "./pages/Home/PersonalPortfolio";
-import DigitalAgency from "./pages/Home/DigitalAgency";
-import AboutUs from "./pages/About/AboutUs";
-import AboutMe from "./pages/About/AboutMe";
-import TeamPage from "./pages/Team/TeamPage";
-import TeamPageDetails from "./pages/Team/TeamPageDetails";
-import PortfolioDetailsPage from "./pages/PortfolioDetailsPage";
-import ServicesDetailsPage from "./pages/ServicesDetailsPage";
-import ContactPage from "./pages/ContactPage";
-import BlogPage from "./pages/Blog/BlogPage";
-import BlogDetailsPage from "./pages/Blog/BlogDetailsPage";
+// import PersonalPortfolio from "./pages/Home/PersonalPortfolio";
+// import DigitalAgency from "./pages/Home/DigitalAgency";
+// import AboutUs from "./pages/About/AboutUs";
+// import AboutMe from "./pages/About/AboutMe";
+// import TeamPage from "./pages/Team/TeamPage";
+// import TeamPageDetails from "./pages/Team/TeamPageDetails";
+// import PortfolioDetailsPage from "./pages/PortfolioDetailsPage";
+// import ServicesDetailsPage from "./pages/ServicesDetailsPage";
+// import ContactPage from "./pages/ContactPage";
+// import BlogPage from "./pages/Blog/BlogPage";
+// import BlogDetailsPage from "./pages/Blog/BlogDetailsPage";
 import AnimatedCursor from "react-animated-cursor";
 
 function App() {
@@ -59,7 +59,7 @@ function App() {
 
       <Routes>
         <Route path="/" element={<CreativeAgency />} />
-        <Route path="/home-two" element={<PersonalPortfolio />} />
+        {/*<Route path="/home-two" element={<PersonalPortfolio />} />
         <Route path="/home-three" element={<DigitalAgency />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/about-me" element={<AboutMe />} />
@@ -69,7 +69,7 @@ function App() {
         <Route path="/services-details" element={<ServicesDetailsPage />} />
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/blog" element={<BlogPage />} />
-        <Route path="/blog-details" element={<BlogDetailsPage />} />
+        <Route path="/blog-details" element={<BlogDetailsPage />} />*/}
       </Routes>
     </>
   );
